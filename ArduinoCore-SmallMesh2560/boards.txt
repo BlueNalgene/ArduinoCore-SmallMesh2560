@@ -1,0 +1,26 @@
+#
+# This file adds our DOE-Sensor "Small Mesh" to Arduino device list
+# Board is compatible with the Mega 2560V 3.3V board
+#
+###################################################################
+mega2560V.name=SmallMesh2560
+
+mega2560V.upload.tool=avrdude
+mega2560V.upload.protocol=wiring
+mega2560V.upload.maximum_size=253952
+mega2560V.upload.maximum_data_size=8192
+mega2560V.upload.speed=57600
+
+mega2560V.bootloader.tool=avrdude
+mega2560V.bootloader.low_fuses=0xFF
+mega2560V.bootloader.high_fuses=0xD8
+mega2560V.bootloader.extended_fuses=0xFD
+mega2560V.bootloader.file=MegaPro3.3V-8MHz-57600.hex
+mega2560V.bootloader.unlock_bits=0x3F
+mega2560V.bootloader.lock_bits=0x0F
+
+mega2560V.build.mcu=atmega2560
+mega2560V.build.f_cpu=8000000L
+mega2560V.build.board=AVR_MEGA2560V
+mega2560V.build.core=arduino:arduino
+mega2560V.build.variant=mega_plus

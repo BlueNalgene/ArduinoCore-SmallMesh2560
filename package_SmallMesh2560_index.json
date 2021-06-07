@@ -1,0 +1,42 @@
+{
+  "packages": [
+    {
+      "name": "SmallMesh2560",
+      "maintainer": "Wesley T. Honeycutt",
+      "websiteURL": "https://github.com/BlueNalgene/ArduinoCore-SmallMesh2560",
+      "email": "honeycutt@ou.edu",
+      "help": {
+        "online": "https://github.com/BlueNalgene/ArduinoCore-SmallMesh2560/Issues"
+      },
+      "platforms": [
+        {
+          "name": "SmallMesh2560",
+          "architecture": "avr",
+          "version": "1.0.0",
+          "category": "Contributed",
+          "help": {
+            "online": "https://github.com/BlueNalgene/ArduinoCore-SmallMesh2560/Issues"
+          },
+          "url": "https://github.com/BlueNalgene/ArduinoCore-SmallMesh2560/SmallMesh2560-1.0.0.zip",
+          "archiveFileName": "SmallMesh2560-1.0.0.zip",
+          "checksum": "SHA-256:ec2f4191c14b06abf81bb8ceeefe2469fde7f47ad377d342eece952ae137567f",
+          "size": "52419",
+          "boards": [{ "name": "SmallMesh2560" }],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "avr-gcc",
+              "version": "4.8.1-arduino5"
+            },
+            {
+              "packager": "arduino",
+              "name": "avrdude",
+              "version": "6.0.1-arduino5"
+            }
+          ]
+        }
+      ],
+      "tools": []
+    }
+  ]
+} 
